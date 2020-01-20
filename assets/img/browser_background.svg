@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="901px" height="828px" viewBox="0 0 901 828" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="0.5" y1="0.0144927539" x2="0.5" y2="0.9710145" id="gradient_1">
+      <stop offset="0" stop-color="#EDECED" />
+      <stop offset="1" stop-color="#D2D1D2" />
+    </linearGradient>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dx="0" dy="-1" />
+      <feGaussianBlur stdDeviation="0" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.7176471 0 0 0 0 0.7058824 0 0 0 0 0.7176471 0 0 0 0.2980392 0" />
+      <feBlend mode="normal" in2="shape" result="effect0_innerShadow" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dx="0" dy="-0.5" />
+      <feGaussianBlur stdDeviation="0" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.7176471 0 0 0 0 0.7058824 0 0 0 0 0.7176471 0 0 0 1 0" />
+      <feBlend mode="normal" in2="effect0_innerShadow" result="effect1_innerShadow" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dx="0" dy="0.5" />
+      <feGaussianBlur stdDeviation="0.25" />
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5019608 0" />
+      <feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow" />
+    </filter>
+  </defs>
+  <g id="Windows-/-Window-with-Toolbar-(Icons-Buttons-+-Text)-/-Aqua-instance">
+    <g filter="url(#filter_1)">
+      <path d="M0 4.499L0 828L901 828L901 3.999Q901 3.80254 900.981 3.60703Q900.961 3.41152 900.923 3.21883Q900.885 3.02615 900.828 2.83815Q900.771 2.65015 900.695 2.46865Q900.62 2.28715 900.528 2.11388Q900.435 1.94062 900.326 1.77727Q900.217 1.61393 900.092 1.46206Q899.968 1.3102 899.829 1.17128Q899.69 1.03236 899.538 0.907731Q899.386 0.783099 899.223 0.673953Q899.059 0.564807 898.886 0.472197Q898.713 0.379587 898.531 0.304406Q898.35 0.229224 898.162 0.172196Q897.974 0.115167 897.781 0.0768396Q897.589 0.0385126 897.393 0.0192563Q897.197 0 897.001 0L4.499 0Q4.38856 0 4.27824 0.00541924Q4.16793 0.0108385 4.05802 0.0216639Q3.94811 0.0324893 3.83886 0.0486949Q3.72961 0.0649004 3.62129 0.086447Q3.51297 0.107994 3.40583 0.134829Q3.2987 0.161665 3.19301 0.193725Q3.08732 0.225786 2.98333 0.262993Q2.87934 0.300201 2.77731 0.342466Q2.67527 0.384731 2.57543 0.431952Q2.47559 0.479173 2.37819 0.531236Q2.28078 0.583299 2.18605 0.640079Q2.09132 0.696859 1.99949 0.758218Q1.90766 0.819578 1.81895 0.885369Q1.73024 0.951161 1.64486 1.02123Q1.55949 1.09129 1.47766 1.16546Q1.39582 1.23963 1.31773 1.31773Q1.23963 1.39582 1.16546 1.47766Q1.09129 1.55949 1.02123 1.64486Q0.951161 1.73024 0.885369 1.81895Q0.819578 1.90766 0.758218 1.99949Q0.696859 2.09132 0.640079 2.18605Q0.583299 2.28078 0.531236 2.37819Q0.479173 2.47559 0.431952 2.57543Q0.384731 2.67527 0.342466 2.77731Q0.300201 2.87934 0.262993 2.98333Q0.225786 3.08732 0.193725 3.19301Q0.161665 3.2987 0.134829 3.40583Q0.107994 3.51297 0.086447 3.62129Q0.0649004 3.72961 0.0486949 3.83886Q0.0324893 3.94811 0.0216639 4.05802Q0.0108385 4.16793 0.00541924 4.27824Q0 4.38856 0 4.499L0 4.499Z" id="Titlebar-Background" fill="url(#gradient_1)" stroke="none" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="52px" height="12px" viewBox="0 0 52 12" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(40 0)" id="path_1" />
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(20 0)" id="path_2" />
+    <path d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" id="path_3" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="clip_3">
+      <use xlink:href="#path_3" />
+    </clipPath>
+  </defs>
+  <g id="Windows-/-x-/-Window-Controls-/-Toolbar---Default-/-Aqua-instance">
+    <g id="Zoom">
+      <use stroke="none" fill="#2ACB42" xlink:href="#path_1" />
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="#1BAC2C" stroke-width="1" />
+      </g>
+    </g>
+    <g id="Minimise">
+      <use stroke="none" fill="#FFC12F" xlink:href="#path_2" />
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#DFA023" stroke-width="1" />
+      </g>
+    </g>
+    <g id="Close">
+      <use stroke="none" fill="#FF6157" xlink:href="#path_3" />
+      <g clip-path="url(#clip_3)">
+        <use xlink:href="#path_3" fill="none" stroke="#E24640" stroke-width="1" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link href="vendor/fa/css/all.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.3.3/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+
+        <title>Widget Configuration</title>
+    </head>
+
+    <body>
+        <div class="container pt-5 pb-5">
+            <img src="assets/img/logo.svg" class="logo" />
+            <h5 class="font-weight-bold">AI Product Recommendations Widget</h5>
+            <hr/>
+            <div class="row align-items-center">
+                <div class="col">
+                    <div class="row align-items-center">
+                        <div class="col"><h6 class="font-weight-bold">Contact Email</h6></div>
+                        <div class="col"><input class="form-control" placeholder="Email Address "/></div>
+                    </div>
+                </div>
+                <div class="col text-right"><button class="btn btn-delvify">Save</button></div>
+            </div>
+            <hr />
+            <div class="row align-items-center">
+                <div class="col">
+                    <div><h6 class="font-weight-bold">Install Tag</h6></div>
+                    <div><p>Please install the below code onto your website:</p></div>
+                    <pre><code>&lt!-- Delvify Recommendation Tool --&gt
+    &ltscript type="text/javascript" src="http://delvifyrecommendation/api/js?websiteid=101"&gt&lt/script&gt
+&lt!-- Delvify Recommendation Tool --&gt</code></pre>
+                    <div class="text-right"><button class="btn btn-delvify">Verify Tag</button></div>
+                </div>
+            </div>
+            <hr />
+            <div class="row align-items-center">
+                <div class="col">
+                    <div><h6 class="font-weight-bold">AI Model Training</h6></div>
+                    <div><p>Delvify's recommendation model requires some processing time to deliver your customers with accurate and relvant recommendations.
+                        We'll notify you as soon as this is ready, in the meantime you can configure your widget ready for deployment.</p></div>
+                    <div class="text-right"><button class="btn btn-success">Completed <i class="far fa-check-circle"></i></button></div>
+                </div>
+            </div>
+            <hr />
+            <div class="row align-items-center config">
+                <div class="col">
+                    <div><h6 class="font-weight-bold">Configure Widget</h6></div>
+                    <div>Please configure your product widget below, if you wish to further customize please contact <span class="link">support@delvify.io</span> for more details.</div>
+                    <hr class="dashed"/>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Products to show: </div>
+                                <div class="col">
+                                    <select class="form-control form-control-sm select" id="numberSelect">
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option selected="selected" value="5">5 (default)</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">AI Recommendation Filter: </div>
+                                <div class="col">
+                                    <select class="form-control form-control-sm select" id="filterSelect">
+                                        <option selected="selected" value="similar">Similar Products</option>
+                                        <option value="trending">Trending Products</option>
+                                        <option value="bestSelling">Best Selling</option>
+                                        <option value="inventory">Inventory</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Font Family: </div>
+                                <div class="col">
+                                    <select class="form-control form-control-sm select" id="fontSelect">
+                                        <option>Arial</option>
+                                        <option selected="selected">Calibri</option>
+                                        <option>Times New Roman</option>
+                                        <option>Helvetica</option>
+                                        <option>Sans-Serif</option>
+                                        <option>Courier New</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Widget Header: </div>
+                                <div class="col">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input switch" id="headerSwitch" href="#headerConfig" data-toggle="collapse">
+                                        <label class="custom-control-label" for="headerSwitch"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col collapse" id="headerConfig">
+                            <div class="row align-items-center mb-1">
+                                <div class="col col-sm-2">Color: </div>
+                                <div class="col">
+                                    <div class="row no-gutters">
+                                        <label class="colorTile mr-1" for="headerColor"></label>
+                                        <div><input class="form-control form-control-sm color-picker" type="text" id="headerColor" value="#444444"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center mb-1">
+                                <div class="col col-sm-2">Text: </div>
+                                <div class="col">
+                                    <input class="form-control form-control-sm text-input" type="text" value="Recommended For You" id="headerText"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Product Name: </div>
+                                <div class="col">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input switch" id="productNameSwitch" href="#productNameConfig" data-toggle="collapse">
+                                        <label class="custom-control-label" for="productNameSwitch"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col collapse" id="productNameConfig">
+                            <div class="row align-items-center mb-1">
+                                <div class="col col-sm-2">Color: </div>
+                                <div class="col">
+                                    <div class="row no-gutters">
+                                        <label class="colorTile mr-1" for="productNameColor"></label>
+                                        <div><input class="form-control form-control-sm color-picker" type="text" id="productNameColor" value="#444444"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Price: </div>
+                                <div class="col">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input switch" id="priceSwitch" href="#priceConfig" data-toggle="collapse">
+                                        <label class="custom-control-label" for="priceSwitch"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col collapse" id="priceConfig">
+                            <div class="row align-items-center mb-1">
+                                <div class="col col-sm-2">Color: </div>
+                                <div class="col">
+                                    <div class="row no-gutters">
+                                        <label class="colorTile mr-1" for="priceColor"></label>
+                                        <div><input class="form-control form-control-sm color-picker" type="text" id="priceColor" value="#444444"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">CTA Button: </div>
+                                <div class="col">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input switch" id="ctaButtonSwitch" href="#ctaButtonConfig" data-toggle="collapse">
+                                        <label class="custom-control-label" for="ctaButtonSwitch"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col collapse" id="ctaButtonConfig">
+                            <div class="row align-items-center mb-1">
+                                <div class="col col-sm-2">Color: </div>
+                                <div class="col">
+                                    <div class="row no-gutters">
+                                        <label class="colorTile mr-1" for="ctaButtonColor"></label>
+                                        <div><input class="form-control form-control-sm color-picker" type="text" id="ctaButtonColor" value="#444444"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center mb-1">
+                                <div class="col col-sm-2">Text: </div>
+                                <div class="col">
+                                    <input class="form-control form-control-sm text-input" type="text" value="Add To Cart" id="ctaButtonText"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Enable Overlay <i class="fas fa-info-circle tooltip-button" data-toggle="tooltip" data-placement="bottom" title="The overlay allows users to quickview the recommended product and add to the basket."></i>: </div>
+                                <div class="col">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input switch" id="overlaySwitch">
+                                        <label class="custom-control-label" for="overlaySwitch"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6">
+                            <div class="row align-items-center mb-1">
+                                <div class="col">Enable Search: </div>
+                                <div class="col">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input switch" id="searchSwitch">
+                                        <label class="custom-control-label" for="searchSwitch"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="dashed"/>
+                    <div class="font-weight-bold">Widget Preview: </div>
+                    <div class="preview">
+                        <div id="recommendation"></div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row align-items-center">
+                <div class="col">
+                    <div><h6 class="font-weight-bold">Install Widget</h6></div>
+                    <div><p>Please install the below code where the widget should be displayed:</p></div>
+                    <pre><code id="tagCode"></code></pre>
+                </div>
+            </div>
+            <hr />
+            <div class="row align-items-center">
+                <div class="col">
+                    <div><h6 class="font-weight-bold">Congratulations!</h6></div>
+                    <div><p>You are all set, access your dashboard for insights and analytics, or if you need further support please contact the support team.</p></div>
+                    <div class="text-right">
+                        <button class="btn btn-info">Access Dashboard<i class="fas fa-chart-line ml-1"></i></button>
+                        <button class="btn btn-delvify">Contact Support<i class="fas fa-user ml-1"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendor/slick/slick.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.3.3/js/bootstrap-colorpicker.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+
+</html>
