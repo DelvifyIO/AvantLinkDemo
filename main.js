@@ -58,47 +58,60 @@ const recosSimilar = [
 ];
 
 const recosTrending = [
-    { name: "Black Ripped Details Skinny Leg Jeans", price: 21.87, description: "This jeans is in fashion style, we love it for its skinny design, ripped details and midi waist. Pairing it with any piece you love is OK!", image_url: "assets/img/trending_1.jpg", sku: "SKU828098" },
-    { name: "White Cross Front Top", price: 10.17, description: "Here is the fashion top for you. Featuring sleeveless and cross front. Wear this day and night is ok. Perfect with black leggings or casual shorts.", image_url: "assets/img/trending_2.jpg", sku: "SKU670239" },
-    { name: "Plus Size Pink Spaghetti Cold Shoulder Blouses", price: 26.26, description: "This plus size sexy cold shoulder shirt is adorned with spaghetti, cold shoulder, flounce sleeves and backless design. Style it with pants will be perfect.", image_url: "assets/img/trending_3.jpg", sku: "SKU911531" },
-    { name: "Black Lace Insert Off The Shoulder Bell Sleeves T shirt", price: 20.41, description: "This fashion lace T-shirt is perfect for festival season! Featuring off the shoulder, long sleeves and lace insert. Style it with jeans for a perfect look!", image_url: "assets/img/trending_4.jpg", sku: "SKUB13669" },
-    { name: "Khaki Square Neck Sleeveless Overall Outfits", price: 24.8, description: "This soft jumpsuit worth freaking out over. This jumpsuit features a square neck, sleeveless, zipper design, adjustable straps, and pockets on the front and back details. Wear a white tee inside the jumpsuit and pair it with high heels would be great.", image_url: "assets/img/trending_5.jpg", sku: "SKU773204" },
-    { name: "Pink Spaghetti Scoop Neck Camis Top", price: 14.56, description: "We are currently obsessing over this top. It adorned with scoop neck, sleeveless and adjustable shoulder straps. Style it with skorts and mini skirts will be perfect.", image_url: "assets/img/trending_6.jpg", sku: "SKUA64749" },
-    { name: "Navy Cold Shoulder Long Sleeves Slit Sweatshirt", price: 20.41, description: "We are currently obsessing over this sweatshirt. It adorned with cold shoulder and slit hem. Style it with shorts will be perfect.", image_url: "assets/img/trending_7.jpg", sku: "SKU823136" },
-    { name: "Navy Random Floral Print Off Shoulder Long Sleeves Blouse", price: 21.87, description: "We are currently obsessing over this top. It adorned with off shoulder and floral print. Style it with leggings will be perfect.", image_url: "assets/img/trending_8.jpg", sku: "SKU867122" },
-    { name: "Blue Cold Shoulder 3/4 Length Sleeve T-shirt with Strappy Detail", price: 16.02, description: "This soft tee's worth freaking out over. This t-shirt features a round neckline and backline, cold shoulders, and curved hem, slouchy silhouette, and strappy detailing with cutouts at shoulders. Pair it with anything from shorts to skinnies.", image_url: "assets/img/trending_9.jpg", sku: "SKU393865" },
-    { name: "Army Green Pleated Design One Shoulder Long Sleeves T-shirt", price: 14.56, description: "This top is in a stretchy slinky fabric and is in an asymmetric off the shoulder style. Team with jeans and flats for day and just add a pair of heels to take you into the night!", image_url: "assets/img/trending_10.jpg", sku: "SKU856470" },
+    { name: "White Beige Thin Shoulder Cold Shoulder Long Sleeve T-shirt", price: 16.02, description: "This pure color tee gives your casual t-shirt a sexy flair. This top features cold shoulder design with thin shoulder and long sleeves. It's perfect with your skinny jeans or cutoff shorts, depending on the weather.", image_url: "assets/img/trending_1.jpg", sku: "SKU767148" },
+    { name: "Plus Size Black Lace Insert Cold Shoulder Short Sleeves T-shirts", price: 20.41, description: "Catch your eyes on this plus size lace insert t-shirt. It features cold shoulder, lace insert, cut out, backless, short sleeves and pleated design. Style it with pants.", image_url: "assets/img/trending_2.jpg", sku: "SKU900572" },
+    { name: "Plus Size Black Lace Details Plain Off The Shoulder Dress", price: 20.41, description: "Edgy, chic, and classic the Roxy is the perfect party dress for a girl's night out.", image_url: "assets/img/trending_3.jpg", sku: "SKU898702" },
+    { name: "Plus Size Black Cut Out Lace Detail Mini Dress", price: 29.19, description: "A fashion plus size mini dress feature with long sleeves, lace detail, round neck, and cut out design.", image_url: "assets/img/trending_4.jpg", sku: "SKUA34918" },
+    { name: "Plus Size Black Ruffle Trim Mesh Blouse", price: 26.26, description: "A plus size features ruffle trim, mesh detail, see-through design, and round neck. Pair it with jeans and a coat will be perfect.", image_url: "assets/img/trending_5.jpg", sku: "SKUA50426" },
+    { name: "Plus Size Navy Random Floral Print Cold Shoulder Dress", price: 16.02, description: "Here is a fashion style cold shoulder dress for you. Basic in black color, short sleeves, scoop neck design. Floral print is the feature of this dress.", image_url: "assets/img/trending_6.jpg", sku: "SKUB77000" },
+    { name: "Plus Size Navy Knotted Floral Print Cold Shoulder Tee", price: 16.02, description: "This navy cold shoulder top is a beaut! This navy cami top is in a soft polyester fabric with a knotted detail.", image_url: "assets/img/trending_7.jpg", sku: "SKUB42058" },
+    { name: "Plus Size Black Back Lace Details 3/4 Length sleeves Blouse", price: 23.34, description: "A crinkle woven top featuring a scoop neckline, button-loop keyhole closure at back, front ornate lace overlay with scalloped edging, long sleeves with button-loop cuffs, and a billowy silhouette.", image_url: "assets/img/trending_8.jpg", sku: "SKU957252" },
+    { name: "Plus Size Black Lace Detail Romper", price: 29.19, description: "A fashion plus size romper features with lace detail, long sleeve, and round neck design. Pair it with the high heel to make a fashion look!", image_url: "assets/img/trending_9.jpg", sku: "SKUA14399" },
+    { name: "Plus Size Black Floral Print Deep V Neck Blouse", price: 17.48, description: "Bring attention to this blouse, it is in fashion and sexy style, it ensure all eyes will on you when you in it. It is adorned with floral print, bell sleeves and deep v neckÂ design. Pair it with high waist jeans will be perfect!", image_url: "assets/img/trending_10.jpg", sku: "SKUB55588" },
 ];
 
 const recosBestSelling = [
-    { name: "Plus Size Pink Spaghetti Cold Shoulder Blouses", price: 26.26, description: "This plus size sexy cold shoulder shirt is adorned with spaghetti, cold shoulder, flounce sleeves and backless design. Style it with pants will be perfect.", image_url: "assets/img/trending_3.jpg", sku: "SKU911531" },
-    { name: "Black Pleated Design One Shoulder T-shirt", price: 13.09, description: "This top is in a stretchy slinky fabric and is in an asymmetric off the shoulder style. Team with jeans and flats for day and just add a pair of heels to take you into the night!", image_url: "assets/img/best_2.jpg", sku: "SKU856469" },
-    { name: "Army Green Pleated Design One Shoulder Long Sleeves T-shirt", price: 14.56, description: "This top is in a stretchy slinky fabric and is in an asymmetric off the shoulder style. Team with jeans and flats for day and just add a pair of heels to take you into the night!", image_url: "assets/img/best_3.jpg", sku: "SKU856470" },
-    { name: "White Random Floral Print V-neck Cami Top with Zip Design", price: 17.48, description: "This cami is our current obsession and it is a must have item. Featuring random floral print, v-neck design, sleeveless design and zip design. Perfect with shorts or jeans.", image_url: "assets/img/best_4.jpg", sku: "SKU794391" },
-    { name: "Army Green Chiffon Double Layer Lace Hem Camis", price: 24.8, description: "Classic cami in a chiffon fabrication, by Yoins. This sleeveless modern scoop-neck cami in an easy swing silhouette. Topped with skinny straps and thin straps that lead to a square back.", image_url: "assets/img/best_5.jpg", sku: "SKU590522" },
-    { name: "Dark Blue Classic Crew Neck Camis", price: 13.09, description: "Classic cami in a chiffon fabrication, by Yoins. This sleeveless modern crew-neck cami in an easy swing silhouette. Topped with skinny straps and thin straps that lead to a square back.", image_url: "assets/img/best_6.jpg", sku: "SKU773973" },
-    { name: "Plus Size White Cut Out Backless Bodycon Dress", price: 20.41, description: "Strongly recommend this plus size sexy midi dress to you from YOINS. It is adorned with round neck, sleeveless, hollow out and backless design. We suggest you pair it with high heels.", image_url: "assets/img/best_7.jpg", sku: "SKU911566" },
-    { name: "Plus Size Black Lace Detail Romper", price: 29.19, description: "A fashion plus size romper features with lace detail, long sleeve, and round neck design. Pair it with the high heel to make a fashion look!", image_url: "assets/img/best_8.jpg", sku: "SKUA14399" },
-    { name: "White Bow Tie Back Off The Shoulder 3/4 Length Sleeves Blouses", price: 23.34, description: "Suit for going holidays, date with your friends or lover, attending cocktail party, a sexy top to go to club or beach. The back bow design is very elegant and nice.", image_url: "assets/img/best_9.jpg", sku: "SKU691571" },
-    { name: "Blue Cold Shoulder 3/4 Length Sleeve T-shirt with Strappy Detail", price: 16.02, description: "This soft tee's worth freaking out over. This t-shirt features a round neckline and backline, cold shoulders, and curved hem, slouchy silhouette, and strappy detailing with cutouts at shoulders. Pair it with anything from shorts to skinnies.", image_url: "assets/img/trending_9.jpg", sku: "SKU393865" },
+    { name: "Plus Size Color Block Lace Detail Mini Dress", price: 35.04, description: "A fashion plus size dress feature with 3/4 length sleeves, lace detail, v-neck, bodycon hem, and color block.", image_url: "assets/img/trending_3.jpg", sku: "SKUA51627" },
+    { name: "Plus Size Red Sequin Mini Dress", price: 32.11, description: "A fashion plus size dress feature with long sleeves, sequin design, bodycon fit, bodycon hem, and mini. Perfect with high heels to the party!", image_url: "assets/img/best_2.jpg", sku: "SKUA73783" },
+    { name: "Plus Size Black Sequin Mini Dress", price: 29.19, description: "A fashion plus size dress feature with long sleeves, sequin design, bodycon fit, bodycon hem, and mini. Perfect with high heels to the party!", image_url: "assets/img/best_3.jpg", sku: "SKUA73784" },
+    { name: "Plus Size Blue Sequin Mini Dress", price: 32.11, description: "A fashion plus size dress feature with long sleeves, sequin design, bodycon fit, bodycon hem, and mini. Perfect with high heels to the party!", image_url: "assets/img/best_4.jpg", sku: "SKUA73785" },
+    { name: "Plus Size Green Floral Print Mini Dress", price: 23.34, description: "A fashion plus size dress feature with long sleeves, floral print, curved hem, mini, and round neck.", image_url: "assets/img/best_5.jpg", sku: "SKUA71633" },
+    { name: "Plus Size Green Cold Shoulder Short Sleeves T-shirt", price: 14.56, description: "Are you looking for a plus size women t-shirt for this summer? Then don't miss it!! It is adorned with cold shoulder, short sleeves and spaghetti. Pair it with your jeans will be perfect!!!", image_url: "assets/img/best_6.jpg", sku: "SKU923755" },
+    { name: "Plus Size Color Block Plaid Self-Tie Shirt Mini Dress", price: 35.04, description: "A fashion plus size dress feature with color block", image_url: "assets/img/best_7.jpg", sku: "SKUA74275" },
+    { name: "Plus Size Black Tiered Cape Midi Dress", price: 45.28, description: "A fashion plus size dress feature with cape design, midi, v-neck design, and bodycon hem. Perfect to with the high heels to make a fashion look!", image_url: "assets/img/best_8.jpg", sku: "SKUA81929" },
+    { name: "Plus Size White Lace Insert Random Floral Print Dress", price: 20.41, description: "This white dress with floral print design and crochet lace embellished design would make you look in good shape and suit for many occasions such as vacation, cocktail, party.", image_url: "assets/img/best_9.jpg", sku: "SKUB47872" },
+    { name: "Plus Size Black Padded Design Polka Dot Scoop Neck Swimwear", price: 35.04, description: "This plus size swimwear, which has spaghetti strapless as the main show, polka dot decorating make it active in the crowd's attention. To show yourself wearing this different swimwear on the beach.", image_url: "assets/img/best_10.jpg", sku: "SKU908149" },
 ];
 
 const recosInventory = [
-    { name: "Plus Size Black Hollow Design Swimwear", price: 23.34, description: "A one-piece swimsuit featuring see-through design, plunging neckline, and a scoop back with crisscross straps", image_url: "assets/img/invent_1.jpg", sku: "SKU899541" },
-    { name: "Plus Size Burgundy Deep V Neck Irregular Hem Cover-up", price: 17.48, description: "Bring attention to this plus size beach dress, which has spaghetti, deep v-neck, Bring attention to this plus size beach cover-up, which has spaghetti, deep v-neck, sleeveless, backless design, irregular hem and maxi length. It is the first choice for the beach, you will be more attractive if you wear it on.", image_url: "assets/img/invent_2.jpg", sku: "SKU914677" },
-    { name: "Lace-up Hollow Out Elastic Waist Long Sleeves Playsuit", price: 20.41, description: "Bring attention to this playsuit. It is sexy and ensure all eyes will be on you when you wear this playsuit. It is adorned with hollow out, lace-up, big keyhole at back, long sleeves and elastic waist. Perfect with your sandals or high heels.", image_url: "assets/img/invent_3.jpg", sku: "SKU439447" },
-    { name: "V-neck Open Back Cami Playsuit", price: 18.95, description: "Bring attention to this mini playsuit. It is adorned with open back and v-neck. Pair with high heels will be great.", image_url: "assets/img/invent_4.jpg", sku: "SKU677838" },
-    { name: "Plus Size Elastic Strap Geometrical Print Dress", price: 23.34, description: "A vacation dresses with random geometrical print that will perfect for the beach.", image_url: "assets/img/invent_5.jpg", sku: "SKU904195" },
-    { name: "Black Plain Breathable Sweat-absorbing Buttock Lifting Pants", price: 14.56, description: "These pants are in fashion style. It is styled with high-waisted design and bodycon fit. It is very great sports pants!", image_url: "assets/img/invent_6.jpg", sku: "SKU911566" },
-    { name: "Plus Size Navy Hooded Design Leaf Print Coat", price: 42.36, description: "A plus size navy coat featuring long sleeves, zipper front, hooded design, pocket design.", image_url: "assets/img/invent_7.jpg", sku: "SKUA52136" },
-    { name: "Plus Size Green Hooded Design Random Floral Print Coat", price: 51.13, description: "A plus size green coat featuring long sleeves, zipper front, hooded design, pocket design.", image_url: "assets/img/invent_8.jpg", sku: "SKUA55443" },
-    { name: "Plus Size Green Cold Shoulder Short Sleeves T-shirt", price: 14.56, description: "Are you looking for a plus size women t-shirt for this summer? Then don't miss it!! It is adorned with cold shoulder, short sleeves and spaghetti. Pair it with your jeans will be perfect!!!", image_url: "assets/img/invent_9.jpg", sku: "SKU923755" },
-    { name: "Pink Round Neck Colorblock Floral Print Tee", price: 17.48, description: "Feel the girl power in our casual tee. It features floral print and colorblock design, loose fit and long sleeves. Style it up!", image_url: "assets/img/invent_10.jpg", sku: "SKUA58278" },
+    { name: "Blue Cold Shoulder 3/4 Length Sleeve T-shirt with Strappy Detail", price: 16.02, description: "This soft tee's worth freaking out over. This t-shirt features a round neckline and backline, cold shoulders, and curved hem, slouchy silhouette, and strappy detailing with cutouts at shoulders. Pair it with anything from shorts to skinnies.", image_url: "assets/img/invent_1.jpg", sku: "SKU393865" },
+    { name: "Plunging Neck Crisscross Back Cami Playsuit", price: 23.34, description: "The cutest number has arrived to seriously shake up your entire wardrobe. Made from a lightweight fabric, this playsuit features thin spaghetti straps that crossover at the back and a plunging neckline. This stunner deserves to be seen! Strut your stuff and team it up with statement jewelled earrings and a nude lip for a kickass look!", image_url: "assets/img/invent_2.jpg", sku: "SKU391844" },
+    { name: "Stripe Pattern Patch Design Long Sleeve Casual T-shirt", price: 18.95, description: "This t-shirt made from comfy fabric, comes in a variety of colours design and the stripe pattern and patch details are a style winner. Just throw on with jeans for a casual style look!", image_url: "assets/img/invent_3.jpg", sku: "SKU493466" },
+    { name: "V-neck Overlay Dot Drint Cami Top in White", price: 7.24, description: "Who doesn't love a stylish singlet top? This dot print cami top is a perfect casual top featuring a singlet style with V neckline. Style it with white shorts and a fedora hat for a fresh look.", image_url: "assets/img/invent_4.jpg", sku: "SKU673952" },
+    { name: "Navy Random Calico Print Strapless Playsuit", price: 18.95, description: "This strapless playsuit is pretty, elegant and perfect for dressing up or down! Featuring the strapless trend, high rise bottoms and invisible zipper at the center back. Style it with black wedge heels and bronzed makeup!", image_url: "assets/img/invent_5.jpg", sku: "SKU677229" },
+    { name: "Apricot Feather Printing T-shirt With Cold Shoulder", price: 17.48, description: "Here is the fashion t-shirt for you. Featuring cold shoulder and feather printing. Wear this day and night is ok. Perfect with black leggings or casual shorts.", image_url: "assets/img/invent_6.jpg", sku: "SKU682191" },
+    { name: "Plus Size Burgundy Lace Insert Flared Sleeves T-shirt", price: 21.87, description: "Popular color, lace detail, irregular and wide hem make you look thin. That'll make it your new favorite everyday tee.", image_url: "assets/img/invent_7.jpg", sku: "SKU921130" },
+    { name: "Red Crossed Front Design V-neck Cold Shoulder Short Sleeves T-shirt", price: 13.09, description: "Featuring a cold shoulder details short sleeves and crossed front design, this flattering blouse is set to become a firm favourite in your wardrobe. Wear it for day with jeans or take it into evening with your trusty block heels.", image_url: "assets/img/invent_8.jpg", sku: "SKU921668" },
+    { name: "Blue Summer Tribal Print Halter Camis", price: 16.02, description: "We all love tribal print for our daily. Halter design and sleeveless are more popular this summer. Perfectly to match a hot pants.", image_url: "assets/img/invent_9.jpg", sku: "SKU922830" },
+    { name: "Plus Size Green Cold Shoulder Short Sleeves T-shirt", price: 14.56, description: "Are you looking for a plus size women t-shirt for this summer? Then don't miss it!! It is adorned with cold shoulder, short sleeves and spaghetti. Pair it with your jeans will be perfect!!!", image_url: "assets/img/invent_10.jpg", sku: "SKU923755" },
+];
+
+const recosSearch = [
+    { name: "Plus Size Green Floral Print Mini Dress", price: 23.34, description: "A fashion plus size dress feature with long sleeves, floral print, curved hem, mini, and round neck.", image_url: "assets/img/search_1.jpg", sku: "SKUA71633" },
+    { name: "Plus Size Elastic Strap Geometrical Print Dress", price: 23.34, description: "A vacation dresses with random geometrical print that will perfect for the beach.", image_url: "assets/img/search_2.jpg", sku: "SKU904195" },
+    { name: "Plus Size Rose Floral Print Self-Tie Design Midi Dress", price: 42.36, description: "A fashion plus size midi dress feature with rose floral print, self-tie design, v-neck, 3/4 length sleeves, and warp design.", image_url: "assets/img/search_3.jpg", sku: "SKUA68219" },
+    { name: "Plus Size Yellow Floral Print Pocket Detail Midi Dress", price: 27.73, description: "A fashion plus size dress features with floral print, pocket design, long sleeves, and round neck. Pair it with the high heel to make a fashion look!", image_url: "assets/img/search_4.jpg", sku: "SKUA27540" },
+    { name: "Plus Size Green Floral Print Mini Dress", price: 23.34, description: "A fashion plus size dress feature with long sleeves, floral print, curved hem, mini, and round neck.", image_url: "assets/img/search_5.jpg", sku: "SKUA71633" },
+    { name: "Plus Size Rose Floral Print Self-Tie Design Midi Dress", price: 42.36, description: "A fashion plus size midi dress feature with rose floral print, self-tie design, v-neck, 3/4 length sleeves, and warp design.", image_url: "assets/img/search_6.jpg", sku: "SKUA68219" },
+    { name: "Plus Size White Random Floral Print Midi Dress", price: 26.26, description: "A woven wrap dress featuring an allover floral print, a surplice neckline, 3/4 bell sleeves, and a curved hem.", image_url: "assets/img/search_7.jpg", sku: "SKUA71632" },
+    { name: "Plus Size Blue Random Floral Tribal Print V-neck Short Sleeves Dress", price: 29.19, description: "The plus size dress is great to have in your wardrobe! Featuring a floral print, a comfortable fit with v-neck. Style it with a high heels for a fashion look!", image_url: "assets/img/search_8.jpg", sku: "SKUB56901" },
+    { name: "Plus Size Random Floral Crossed Front Design V-neck Dress", price: 24.8, description: "Here is a fashion style dress for you. Basic in multi color, short sleeves, v neck design. Floral print is the feature of this dress.", image_url: "assets/img/search_9.jpg", sku: "SKUB83467" },
+    { name: "Plus Size Green Floral Print V-neck Self-tie Design Dress", price: 23.34, description: "This plus size dress is the first choice for your holiday. It features floral print and v neck design, you can take it with sandals. Just with it enjoy your time.", image_url: "assets/img/search_10.jpg", sku: "SKUA94343" },
 ];
 
 function configSlide(number = 5, type = 'similar', keyword = null) {
     $('#recommendation').html('');
-    const recos = keyword ? recosTrending.slice(0, number) :
+    const recos = keyword ? recosSearch.slice(0, number) :
         type === 'trending' ? recosTrending.slice(0, number) :
         type === 'bestSelling' ? recosBestSelling.slice(0, number) :
         type === 'inventory' ? recosInventory.slice(0, number) : recosSimilar.slice(0, number);
@@ -139,8 +152,8 @@ function configSlide(number = 5, type = 'similar', keyword = null) {
 
     recos.forEach(function (item) {
         $('#recommendation #recommendedProducts').append(
-            "<div class=\"item-slick2 p-l-15 p-r-15\">" +
-            "<div class=\"block2\">" +
+            "<div class=\"item-slick2 p-l-15 p-r-15 h-100\">" +
+            "<div class=\"block2 h-100 d-flex flex-column\">" +
             "<div class=\"block2-img wrap-pic-w of-hidden pos-relative\">" +
             "<a class=\"recommended-product-image\" data-pid=\"" + item.sku + "\">" +
             "<img src=\"" + item.image_url + "\" alt=\"IMG-PRODUCT\">" +
@@ -151,11 +164,11 @@ function configSlide(number = 5, type = 'similar', keyword = null) {
             "</div>" +
             "</a>" +
             "</div>" +
-            "<div class='d-flex flex-row'>" +
+            "<div class='d-flex flex-row flex-grow-1 flex-shrink-1'>" +
             "<div class='text product-name flex-grow-1 product-name'>" + item.name + "</div>" +
             "<div class='text price font-weight-bold product-price'>$" + item.price + "</div>" +
             "</div>" +
-            "<button class=\"flex-c-m bg1 bo-rad-23 hov1 s-text1 trans-0-4 ml-auto cta-button pl-2 pr-2 mt-2\">" + "Add to cart" + "</button>" +
+            "<button class=\"flex-c-m hov1 trans-0-4 ml-auto cta-button pl-2 pr-2 mt-2 btn text-white\">" + "Add to cart" + "</button>" +
             "</div>" +
             "</div>"
         );
@@ -168,7 +181,7 @@ function configSlide(number = 5, type = 'similar', keyword = null) {
     $('#addToCartButtonContainer').append(
         "               <div class=\"btn-recommended-addcart size9 trans-0-4 m-t-10 m-b-10\" id=\"btn-recommended-addcart\">" +
         "                   <!-- Button-->" +
-        "                   <button class=\"flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4 cta-button\">" + "Add to cart" + "</button>" +
+        "                   <button class=\"flex-c-m sizefull hov1 trans-0-4 cta-button btn text-white\">" + "Add to cart" + "</button>" +
         "               </div>"
     );
 
@@ -196,7 +209,6 @@ function configSlide(number = 5, type = 'similar', keyword = null) {
             $(`#recommendation #recommendedDetails`).addClass('d-none');
         }, 500);
     });
-
     $('.real-recommendation').css('font-family', $('#fontSelect').val());
     $('.config #widgetHeaderContainer').css('display', $('#headerSwitch').is(':checked') ? 'block' : 'none');
     $('.config .product-name').css('display', $('#productNameSwitch').is(':checked') ? 'block' : 'none');
