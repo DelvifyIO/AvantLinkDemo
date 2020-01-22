@@ -339,5 +339,6 @@ $(document).ready(function(){
         updateCode();
     });
 
+    updateCode();
     $('[data-toggle="tooltip"]').tooltip();
 });
