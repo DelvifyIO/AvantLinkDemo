@@ -254,7 +254,31 @@ function updateCode() {
     );
 }
 
+function promptPass() {
+    let password = window.localStorage.getItem('password') || prompt("Enter your Password");
+    $.ajax({
+        type: 'GET',
+        url: "http://18.221.221.252:8081/api/password",
+        data: { site: 'avantLink', password },
+        success: function (result) {
+            if (result !== 'OK') {
+                alert("Incorrect Password");
+                return promptPass();
+            } else {
+                window.localStorage.setItem('password', password);
+            };
+        },
+        error: function (result) {
+            alert("Incorrect Password");
+            return promptPass();
+        },
+        async: false
+    });
+}
+
 $(document).ready(function(){
+    promptPass();
+    $('#protectedContent').css('display', 'block');
     configSlide(5, 'similar');
     $('.select').on('change', function() {
         const id = $(this).attr('id');
