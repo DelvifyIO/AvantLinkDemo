@@ -255,7 +255,7 @@ function updateCode() {
 }
 
 function promptPass() {
-    let password = window.localStorage.getItem('password') || prompt("Enter your Password");
+    let password = window.localStorage.getItem('avantLinkPassword') || prompt("Enter your Password");
     $.ajax({
         type: 'GET',
         url: "http://18.221.221.252:8081/api/password",
@@ -263,10 +263,10 @@ function promptPass() {
         success: function (result) {
             if (result !== 'OK') {
                 alert("Incorrect Password");
-                window.localStorage.removeItem('password');
+                window.localStorage.removeItem('avantLinkPassword');
                 return promptPass();
             } else {
-                window.localStorage.setItem('password', password);
+                window.localStorage.setItem('avantLinkPassword', password);
             };
         },
         error: function (result) {
