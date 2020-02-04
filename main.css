@@ -24,6 +24,60 @@ body {
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
+.tool-tile {
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.tool-logo {
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 5px;
+    padding: 0.5vw;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.tool-heading {
+    font-weight: bolder;
+}
+
+.tool-message {
+    font-weight: bold;
+    font-size: medium;
+    flex-grow: 1;
+}
+
+.tool-caption {
+    font-weight: bold;
+    color: #5a6268;
+    font-size: small;
+}
+
+.btn-create {
+    background-color: #34c37a;
+    color: white;
+}
+
+.btn-create:hover {
+    background-color: #2dac6a;
+    color: white;
+}
+
+.terms {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #c2c7c7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.shadow-tool {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25) !important;
+}
+
 #protectedContent {
     display: none;
 }
