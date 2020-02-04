@@ -41,23 +41,26 @@ body {
 
 .tool-heading {
     font-weight: bolder;
+    font-size: 1.4vw;
 }
 
 .tool-message {
     font-weight: bold;
-    font-size: medium;
+    font-size: 1vw;
     flex-grow: 1;
 }
 
 .tool-caption {
     font-weight: bold;
     color: #5a6268;
-    font-size: small;
+    font-size: 0.8vw;
 }
 
 .btn-create {
     background-color: #34c37a;
     color: white;
+    font-size: 1vw;
+    font-weight: bold;
 }
 
 .btn-create:hover {
