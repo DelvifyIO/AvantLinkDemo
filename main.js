@@ -258,7 +258,7 @@ function promptPass() {
     let password = window.localStorage.getItem('avantLinkPassword') || prompt("Enter your Password");
     $.ajax({
         type: 'GET',
-        url: "http://18.221.221.252:8081/api/password",
+        url: "https://reco.delvify.io:8081/api/password",
         data: { site: 'avantLink', password },
         success: function (result) {
             if (result !== 'OK') {
